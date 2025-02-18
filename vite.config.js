@@ -9,8 +9,8 @@ import SortCss from 'postcss-sort-media-queries';
 
 export default defineConfig(({ command }) => {  
   return {
-    // base: '/sample/src/partials/g',
-    base: '/',
+    base: '/sample/src/partials/',
+   
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
