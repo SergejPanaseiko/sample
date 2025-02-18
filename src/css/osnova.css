@@ -1,0 +1,174 @@
+  .container {
+      width: 1200px;
+  }
+
+  ul {
+      padding: 0;
+      list-style: none;
+
+  }
+
+  body {
+      font-family: "Lato", sans-serif;
+      display: flex;
+  }
+
+  .sidenav {
+      height: 100%;
+      width: 250px;
+      background-color: #111;
+      overflow-x: hidden;
+      padding: 20px;
+  }
+
+  .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      color: #818181;
+      display: block;
+  }
+
+  .sidenav a:hover {
+      color: #f1f1f1;
+  }
+
+  main {
+      float: left;
+      font-size: 28px;
+      padding: 0px 10px;
+      width: 2000px;
+  }
+
+
+  section {
+      padding: 50px;
+      font-size: 20px;
+  }
+
+  .rightnav {
+      margin-top: 10px;
+      padding-top: 10px;
+      display: block;
+      width: 300px;
+      font-size: 20px;
+      background-color: #818181;
+
+  }
+
+  .rightnav a {
+      color: aqua;
+      text-decoration: none;
+  }
+
+  blockquote {
+      color: rgb(50, 26, 187);
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 25px;
+      background-color: bisque;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #4310f8;
+      box-shadow: 10px 10px 5px 5px rgb(179, 240, 240);
+  }
+
+  blockquote:hover {
+      background-color: rgb(244, 248, 26);
+      font-size: 1.5em;
+      color: #111;
+      transition: background-color 5s 300ms;
+      transition: font-size 700ms;
+
+  }
+
+  blockquote:hover::after {
+      content: 'Это удача';
+      color: red;
+  }
+
+  span {
+      font-weight: 700;
+      text-decoration: underline;
+
+  }
+
+  p {
+      font-size: 30px;
+  }
+
+  .icon1,
+  .icon2 {
+      fill: rgb(179, 240, 240);
+      stroke: #4310f8;
+      border-radius: 15px;
+      background-color: #10fdf1;
+      padding: 5px;
+  }
+
+  .icon1:hover {
+      width: 80px;
+      transition: width 800ms;
+  }
+
+  .rightnav {
+      padding: 0 15px;
+  }
+
+  .rightnav h2 {
+      text-align: center;
+      font-family: Monomakh;
+  }
+
+  .rightnav li {
+      font-family: Shafarik;
+      padding-bottom: 20px;
+  }
+
+  p {
+      font-family: "Dancing Script", serif;
+  }
+
+  .my-table {
+      border: 1px solid black;
+      /* Межі таблиці */
+      border-collapse: collapse;
+      /* Об'єднання меж */
+  }
+
+  .my-table th {
+      text-align: center;
+      color: red;
+      border: 1px solid black;
+      /* Межі для кожної комірки */
+      padding: 8px;
+  }
+
+  .my-table td {
+      border: 1px solid black;
+      /* Межі для кожної комірки */
+      padding: 8px;
+      /* Відступи всередині комірок */
+      text-align: left;
+      /* Вирівнювання тексту */
+  }
+
+  table li {
+      list-style: circle;
+      padding-left: 5px;
+  }
+
+  table ul {
+      list-style: circle;
+      padding-left: 25px;
+      list-style-position: inside;
+  }
+
+  table ::marker {
+      content: '➤';
+      /* Додає emoji або символ як маркер */
+      color: gold;
+      /* Колір маркера */
+      font-size: 20px;
+      /* Розмір маркера */
+  }
