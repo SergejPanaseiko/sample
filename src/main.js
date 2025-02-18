@@ -13,8 +13,7 @@ document.querySelector('.sidenav').addEventListener('click', (event) => {
         }
     }
     catch {
-        console.log("Error");
-        
+        console.log("Error");        
     }
 });
 
