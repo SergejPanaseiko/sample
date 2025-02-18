@@ -9,7 +9,7 @@ document.querySelector('.sidenav').addEventListener('click', (event) => {
         }
         else if (event.target.closest('.t2')) {
             document.querySelector('.m1').innerHTML = '';
-            loadContent('./partials/lecture-2.html', '.m1');
+            loadContent('./src/partials/lecture-2.html', '.m1');
         }
     }
     catch (error){
