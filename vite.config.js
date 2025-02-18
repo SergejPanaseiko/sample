@@ -7,10 +7,11 @@ import SortCss from 'postcss-sort-media-queries';
 
 
 
-export default defineConfig(({ command }) => {
-  
+export default defineConfig(({ command }) => {  
+    
   return {
     define: {
+    base: '/sample/',
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
@@ -48,9 +49,5 @@ export default defineConfig(({ command }) => {
         sort: 'mobile-first',
       }),
     ],
-    //   plugins: [react()],
-    // esbuild: {
-    // loader: 'text',
-  // }
-  };
+     };
 });
