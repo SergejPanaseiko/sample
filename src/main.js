@@ -1,5 +1,5 @@
 
-import { loadContent } from './JS/first.js';
+import { loadContent } from '/JS/first.js';
 
 document.querySelector('.sidenav').addEventListener('click', (event) => {
     event.preventDefault(); // предотвращаем переход по ссылке
