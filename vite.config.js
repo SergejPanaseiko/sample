@@ -5,13 +5,9 @@ import FullReload from 'vite-plugin-full-reload';
 import SortCss from 'postcss-sort-media-queries';
 
 
-
-
 export default defineConfig(({ command }) => {  
   return {
-     root: "src",
-    base: '/',
-   
+    //base: '/',
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
