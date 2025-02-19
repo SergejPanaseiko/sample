@@ -9,6 +9,7 @@ import SortCss from 'postcss-sort-media-queries';
 
 export default defineConfig(({ command }) => {  
   return {
+     root: "src",
     base: '/',
    
     define: {
@@ -43,11 +44,6 @@ export default defineConfig(({ command }) => {
       emptyOutDir: true,
     },
     plugins: [
-       htmlInject({
-      injectData: {
-        partials: "/partials/main.html" // Используйте путь из `public`
-      }
-    }),
       injectHTML(),
       FullReload(['./src/**/**.html']),
       SortCss({
