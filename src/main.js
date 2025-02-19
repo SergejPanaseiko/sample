@@ -25,7 +25,7 @@ document.querySelector('.sidenav').addEventListener('click', (event) => {
             //loadContent('./lecture-1.html', '.m1');
         }
         else if (event.target.closest('.t2')) {
-            alert('222');
+            alert('333');
             document.querySelector('.m1').innerHTML = '';
             loadContent('./lecture-2.html', '.m1');
         }
