@@ -43,6 +43,11 @@ export default defineConfig(({ command }) => {
       emptyOutDir: true,
     },
     plugins: [
+       htmlInject({
+      injectData: {
+        partials: "/partials/main.html" // Используйте путь из `public`
+      }
+    }),
       injectHTML(),
       FullReload(['./src/**/**.html']),
       SortCss({
