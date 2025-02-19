@@ -12,8 +12,6 @@ async function loadContent(url, containerId) {
     }
 }
 
-
-
 document.querySelector('.sidenav').addEventListener('click', (event) => {
     event.preventDefault(); // предотвращаем переход по ссылке
     try {
