@@ -19,7 +19,7 @@ document.querySelector('.sidenav').addEventListener('click', (event) => {
     try {
         alert('111');
         if (event.target.closest('.t1')) {
-            loadContent('./partials/lecture-1.html', '.m1');
+            loadContent('./lecture-1.html', '.m1');
             //loadContent('./lecture-1.html', '.m1');
         }
         else if (event.target.closest('.t2')) {
